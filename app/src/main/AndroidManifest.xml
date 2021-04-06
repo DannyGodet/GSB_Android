@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gsb_android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity android:name=".DetailMedoc"
+            android:label="Détails Médicament" />
+
+        <activity
+            android:name=".AfficherMedic"
+            android:label="Médicaments" />
+        <activity
+            android:name=".MedocParFamille"
+            android:label="Médicaments par Famille" />
+        <activity
+            android:name=".MedocParCodeD"
+            android:label="Médicaments par code de dépot" />
+        <activity
+            android:name=".GestionMedic"
+            android:label="Gestion des Médicaments" />
+        <activity
+            android:name=".MainActivity"
+            android:label="GSB">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

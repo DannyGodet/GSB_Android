@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GSB_Android</string>
+    <string name="gestion_des_comptes_rendus_de_visites">Gestion des comptes-rendus de visites</string>
+    <string name="gestion_des_praticiens">Gestion des praticiens</string>
+    <string name="gestion_des_medicaments">Gestion des médicaments</string>
+    <string name="gestion_des_visiteurs">Gestion des visiteurs</string>
+    <string name="contre_indication">Contre indication :</string>
+    <string name="code_d_pot_l_gal">Code dépot légal :</string>
+    <string name="nom_commercial">Nom commercial :</string>
+    <string name="effets">Effets :</string>
+    <string name="composition">Composition :</string>
+    <string name="famille">Famille :</string>
+</resources>
